@@ -1,0 +1,38 @@
+.items {  
+    width: 230px; /* Fixed width for each item */  
+    margin: 0 10px; /* Margins on left and right */  
+}  
+
+.items img {  
+    width: 100%; /* Ensure images fill their container */  
+    height: auto; /* Maintain aspect ratio */  
+}  
+
+.items p {  
+    margin: 6px;  
+}  
+
+.itemprices {  
+    display: flex;  
+    gap: 15px;  
+    text-align: center;  
+}  
+
+.itemnewprice {  
+    color: gray;  
+    font-size: 18px;  
+    font-weight: 600;  
+}  
+
+.itemoldprice {  
+    color: rgb(109, 152, 189);  
+    font-size: 18px;  
+    font-weight: 600;  
+    text-decoration: line-through;  
+}  
+
+/* Optional scale effect on hover */  
+.items:hover {  
+    transform: scale(1.05); /* Scale effect */  
+    transition: transform 0.3s; /* Smooth transition */  
+}  
